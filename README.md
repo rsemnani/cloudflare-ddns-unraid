@@ -23,7 +23,7 @@ This Python script, designed as an alternative to ddclient, specifically caters 
 - Simplicity: A straightforward way to update or even recreate DNS records without delving into intricate configurations.
 - Flexibility: Options to force update the IP or force delete and recreate the DNS record based on user preference.
 - Reliability: By directly interfacing with Cloudflare's API and fetching the public IP via the ipify service, the chances of failures are minimized.
-- Compatibility: While designed with Unraid servers in mind, any system with Python can run this script, making it a versatile tool.
+- Compatibility: While designed with Unraid servers in mind, **any system with Python can run this script**, making it a versatile tool.
 
 For users struggling with ddclient or those seeking a more direct way to update their Cloudflare DNS records, this script offers a reliable and user-friendly alternative.
 
