@@ -48,7 +48,7 @@ def create_dns_record(zone_id, record_type, record_name, record_content, headers
         "type": record_type,
         "name": record_name,
         "content": record_content,
-        "ttl": 120,  # TTL set to 2 minutes.
+        "ttl": 3600,  # TTL set to 5 hours.
         "proxied": False
     }
     
